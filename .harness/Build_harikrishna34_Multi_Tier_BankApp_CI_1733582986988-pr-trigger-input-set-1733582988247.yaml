@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harikrishna34_Multi_Tier_BankApp_CI_1733582986988-pr-trigger-input-set
+  identifier: Build_harikrishna34_Multi_Tier_BankApp_CI_1733582986988prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harikrishna34_Multi_Tier_BankApp_CI_1733582986988
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
